@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @RestController
 @RequestMapping("/api/visitors")
 @CrossOrigin(origins = {
-        "http://127.0.0.1:5501",
+        "https://app-lifeqa-fe.azurewebsites.net",
         "http://localhost:5501"
 })
 public class VisitorController {

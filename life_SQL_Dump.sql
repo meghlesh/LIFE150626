@@ -302,7 +302,7 @@ CREATE TABLE `social_contribution` (
 
 LOCK TABLES `social_contribution` WRITE;
 /*!40000 ALTER TABLE `social_contribution` DISABLE KEYS */;
-INSERT INTO `social_contribution` VALUES (6,'We organized a local park cleanup to support environmental sustainability and awareness.','/uploads/1780637303433_1 (3).png','http://127.0.0.1:5501/frontend/environmental-clean-up.html','Environmental cleanup'),(17,'Our animal welfare initiatives focus on supporting stray animals, promoting awareness about animal care, and responsible treatment of animals.','/uploads/1781336967463_1 (2).png','http://127.0.0.1:5501/frontend/karma-foundation.html','Karma foundation');
+INSERT INTO `social_contribution` VALUES (6,'We organized a local park cleanup to support environmental sustainability and awareness.','/uploads/1780637303433_1 (3).png','https://app-lifeqa-fe.azurewebsites.net/environmental-clean-up.html','Environmental cleanup'),(17,'Our animal welfare initiatives focus on supporting stray animals, promoting awareness about animal care, and responsible treatment of animals.','/uploads/1781336967463_1 (2).png','https://app-lifeqa-fe.azurewebsites.net/karma-foundation.html','Karma foundation');
 /*!40000 ALTER TABLE `social_contribution` ENABLE KEYS */;
 UNLOCK TABLES;
 
