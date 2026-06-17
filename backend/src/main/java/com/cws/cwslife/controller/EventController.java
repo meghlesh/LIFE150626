@@ -11,8 +11,18 @@ import java.util.*;
 import java.time.LocalDateTime;
 import com.cws.cwslife.model.EventStats;
 import com.cws.cwslife.repository.EventStatsRepository;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+
 
 @RestController
+public class HomeController {
+
+    @GetMapping("/")
+    public String home() {
+        return "Life API Running Successfully";
+    }
+}
 @RequestMapping("/api/events")
 @CrossOrigin(origins = "*")
 public class EventController {
