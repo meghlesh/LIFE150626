@@ -22,7 +22,7 @@ public class ContactController {
 
     // reCAPTCHA Secret Key
     private static final String SECRET_KEY =
-        "6LfjC_8sAAAAACpuJ6KNb7jUZUT4KchWFH8i8UzC";
+        "6Lc7ICYtAAAAAPLUO-B3Za64aTFL8X5lRMO9LjCc";
 
     // reCAPTCHA verify URL
     private static final String VERIFY_URL =
