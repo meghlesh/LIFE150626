@@ -22,10 +22,11 @@ public class WebConfig implements WebMvcConfigurer {
                 .addResourceLocations("file:uploads/");
     }
 
-    @Override
-    public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/api/**")
-                .allowedOrigins("*")
-                .allowedMethods("GET", "POST", "PUT", "DELETE");
-    }
+   @Override
+public void addCorsMappings(CorsRegistry registry) {
+    registry.addMapping("/api/**")
+            .allowedOrigins("https://app-lifeqa-fe.azurewebsites.net")
+            .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+            .allowedHeaders("*");
+}
 }
